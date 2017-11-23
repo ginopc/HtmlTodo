@@ -1,0 +1,22 @@
+{
+  "name": "HtmlTodo",
+  "homepage": "https://github.com/ginopc/HtmlTodo",
+  "authors": [
+    "Maurizio Aru <ginopc@tiscali.it>"
+  ],
+  "description": "Simple HTML5/JS todo list manager",
+  "main": "index.html",
+  "keywords": [
+    "html",
+    "todo",
+    "sample"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
