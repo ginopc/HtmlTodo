@@ -1,0 +1,21 @@
+/**
+ *  HTML5 Todo List Manager
+ *
+ *  Author  : Maurizio Aru
+ *  Created : 2017-11-23
+ */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0
+    padding: 0;
+}
+header {
+    font-family: 'PT Sans', sans-serif;
+}
+footer {
+    font-family: 'PT Sans', sans-serif;
+}
