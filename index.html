@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="author" content="Maurizio Aru">
     <meta name="description" content="Simple HTML5/JS todo list manager">
+
+    <!-- style libs -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -15,8 +18,9 @@
     <main>
         <p>Manager you list from here</p>
         <section class="insertControls">
-            <input id="taskName" type="text" placeholder="task name">
-            <button id="btnAddTask">ADD</button>
+            <input id="taskName" type="text" placeholder="task name" class="form-control">
+            <button id="btnAddTask" class="btn btn-primary">ADD</button>
+            <button id="btnClearAll" class="btn btn-warning">CLEAR ALL</button>
         </section><!--/insertControls-->
         <section class="taskList">
             <ul>
@@ -27,5 +31,8 @@
     <footer>
         <small>&copy by <a href="http://github.com/ginopc">Maurizio Aru</a></small>
     </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
